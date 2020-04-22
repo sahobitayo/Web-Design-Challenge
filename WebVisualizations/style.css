@@ -1,0 +1,109 @@
+/* Giving the body the specified style */
+body {
+    background: #f1f1f1;
+  }
+  
+  h2 {
+    font-size: 50px;
+    padding: 25px;
+    color: #cc6600
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    padding: 30px;
+    background: #fff;
+    margin-top: 10px;
+  }
+  
+  .large-plot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  /* Giving our navbar some padding */
+  .navbar {
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Making our navbar inline-block elements this makes it so we can have multiple on the same line. */
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+  
+  .navbar ul {
+    visibility: visible;
+  }
+  
+   
+  /* Removing  the default link styles */
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Styling the header */
+  .header {
+    height: 200px;
+    padding-top: 20px;
+    background: #cdcdcd;
+  }
+  
+  /* Centering our h1 tag inside our header */
+  .header h1 {
+    padding: 60px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
+  
+  .table {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  
+  th, td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  
+  /* Adding media queries to show the drop-down*/
+  @media (max-width: 600px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    .dropdown-menu {
+      visibility: visible;
+    }
+  }
+  
+  
+    
+  
